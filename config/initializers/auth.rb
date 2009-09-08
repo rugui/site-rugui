@@ -1,0 +1,3 @@
+$http_authentication_login = '8294547e9fe9367f291a22598513d897928d1a0eeb713ca2b41f31977192c5d1'
+$http_authentication_password = 'e09d691c4f49c1bd870980e7b1580a0ad894e48066f1581776becc3236d60b12'
+

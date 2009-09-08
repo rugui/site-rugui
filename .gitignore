@@ -1,0 +1,13 @@
+log/*.log
+tmp/**/*
+.DS_Store
+doc/api
+doc/app
+config/database.yml
+db/*.sqlite3
+nbproject/*
+public/javascripts/javascripts*.js
+public/stylesheets/stylesheets*.css
+public/javascripts/*_packaged.js
+public/stylesheets/*_packaged.css
+public/images/Thumbs.db

@@ -1,0 +1,107 @@
+@charset "utf-8";
+
+/*
+ * Contains default styles for HTML tags.
+ */
+
+html, body { height: 100%; }
+
+body {
+	margin: 0px;
+	text-align: center;
+	background: #fff url(/images/bg_header.png) repeat-x left top;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+h1 {
+	line-height: 43px;
+	margin: 0;
+	padding: 0;
+}
+
+h2 {
+	margin: 0;
+	padding: 0;
+}
+
+h3 {
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+	color: #003E5C;
+}
+
+form {
+	margin: 0;
+	padding: 0;
+	text-align: left;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+li {
+  list-style: none;
+	margin: 0px;
+  padding: 0px;
+}
+
+hr {
+	height: 1px;
+	border: 0px;
+}
+
+p {
+	text-decoration: none;
+	margin: 3px 0px;
+	color: #555;
+	font-size: 0.95em;
+}
+
+a {
+	color: #006290;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+label {
+	width: 140px;
+	float: left;
+	color: #FF0000;
+	text-align: right;
+	color: #003e5c;
+	font-size: 15px;
+	font-weight: bold;
+	padding-right: 6px;
+}
+
+select, textarea, input[type="text"], input[type="password"] {
+	border: 1px #003f5e solid;
+	background-color: #f6f6f6;
+	color: #003e5c;
+	font-size: 14px;
+	width: 300px;
+	float: left;
+	height: 17px;
+}
+
+textarea {
+	height: 140px;
+	float: none;
+}
+
+select {
+  height: 22px;
+  float: none;
+}
+
+input[type="checkbox"] {
+  width: 15px;
+	float: left;
+}
+

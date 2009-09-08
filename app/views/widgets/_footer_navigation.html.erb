@@ -1,0 +1,9 @@
+<%-
+render_navigation :footer, :html => { :id => 'footer-navigation', :class => 'navigation' } do
+  add_item :html => { :class => 'footerNavigationItem' } do |i|
+    i.named t('interface.footer.navigation.home')
+    i.links_to root_path
+  end
+end
+-%>
+

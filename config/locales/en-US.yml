@@ -1,0 +1,16 @@
+en-US:
+  interface:
+    logo:
+      title: 'RuGUI logo'
+    menu:
+      home: 'Home'
+    footer:
+      navigation:
+        home: 'Home'
+      twitter: 'Follow RuGUI on Twitter'
+    pages:
+      home:
+        metatags:
+          title: 'RuGUI -  Ruby Graphical User Interface Framework Official Page'
+          description: 'RuGUI is a framework which aims to help building desktop applications. RuGUI was mostly inspired by the Ruby on Rails framework, taking most of its features from it.'
+          keywords: 'ruby gtk qt, framework, programming, model view controller, mvc, development, desktop'

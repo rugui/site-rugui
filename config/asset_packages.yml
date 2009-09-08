@@ -1,0 +1,16 @@
+--- 
+javascripts: 
+- base: 
+  - jquery
+  - jquery-ui
+  - jrails
+  - application
+stylesheets: 
+- base: 
+  - default
+  - common
+- printable:
+  - printable
+- ie:
+  - ie
+

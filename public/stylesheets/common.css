@@ -1,0 +1,11 @@
+/*
+ * Contains common styles used across multiple pages and sections.
+ */
+
+.hidden {
+  display: none;
+}
+
+.clear {
+  clear: both;
+}

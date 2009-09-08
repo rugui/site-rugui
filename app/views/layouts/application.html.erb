@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>RuGUI <%= ":: #{yield(:title)}" if yield(:title) %></title>
+  <meta name="description" content="<%= yield(:description) %>" />
+  <meta name="keywords" content="<%= yield(:keywords) %>" />
+  <%= stylesheet_link_merged :base %>
+  <%= stylesheet_link_merged :printable, :media => 'print' %>
+  <%= yield(:additional_stylesheets) %>
+  <!--[if IE]>
+    <%= stylesheet_link_merged :ie %>
+  <![endif]-->
+
+  <%= javascript_include_merged :base %>
+  <%= yield(:additional_javascripts) %>
+</head>
+
+<body>
+  <div id="header">
+    <%= render "common/header" %>
+  </div>
+  <div id="content">
+    <%= yield(:content) or yield %>
+  </div>
+  <div id="footer">
+    <%= render "common/footer" %>
+  </div>
+</body>
+</html>
+

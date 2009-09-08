@@ -1,0 +1,10 @@
+<%-
+render_tabnav :menu, :html => { :id => 'menu' } do
+  add_tab :html => { :class => 'menuItem' } do |t|
+    t.named t('interface.menu.home')
+    t.links_to root_path
+    t.highlights_on :controller => "home", :action => 'index'
+  end
+end
+-%>
+
