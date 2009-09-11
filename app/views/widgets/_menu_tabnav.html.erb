@@ -5,6 +5,36 @@ render_tabnav :menu, :html => { :id => 'menu' } do
     t.links_to root_path
     t.highlights_on :controller => "home", :action => 'index'
   end
+
+  add_tab :html => { :class => 'menuItem' } do |t|
+    t.named t('interface.menu.download')
+    t.links_to download_path
+    t.highlights_on :controller => "home", :action => 'download'
+  end
+
+  add_tab :html => { :class => 'menuItem' } do |t|
+    t.named t('interface.menu.code')
+    t.links_to code_path
+    t.highlights_on :controller => "home", :action => 'code'
+  end
+
+  add_tab :html => { :class => 'menuItem' } do |t|
+    t.named t('interface.menu.documentation')
+    t.links_to documentation_path
+    t.highlights_on :controller => "home", :action => 'documentation'
+  end
+
+  add_tab :html => { :class => 'menuItem' } do |t|
+    t.named t('interface.menu.community')
+    t.links_to community_path
+    t.highlights_on :controller => "home", :action => 'community'
+  end
+
+  add_tab :html => { :class => 'menuItem' } do |t|
+    t.named t('interface.menu.blog')
+    t.links_to blog_path
+    t.highlights_on :controller => "home", :action => 'blog'
+  end
 end
 -%>
 

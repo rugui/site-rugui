@@ -2,4 +2,5 @@
 module ApplicationHelper
   include TitledTagHelper
   include MetatagHelper
+  include ExternalRoutesHelper
 end

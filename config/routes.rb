@@ -1,6 +1,10 @@
 ActionController::Routing::Routes.draw do |map|
   # The priority is based upon order of creation: first created -> highest priority.
 
+  map.download 'download', :controller => 'site', :action => 'download'
+  map.documentation 'documentation', :controller => 'site', :action => 'documentation'
+  map.community 'community', :controller => 'site', :action => 'community'
+
   # Sample of regular route:
   #   map.connect 'products/:id', :controller => 'catalog', :action => 'view'
   # Keep in mind you can assign values other than :controller and :action
@@ -31,7 +35,7 @@ ActionController::Routing::Routes.draw do |map|
   #   end
 
   # You can have the root of your site routed with map.root -- just remember to delete public/index.html.
-  map.root :controller => "home"
+  map.root :controller => "site"
 
   # See how all your routes lay out with "rake routes"
 

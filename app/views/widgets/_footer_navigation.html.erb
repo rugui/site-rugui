@@ -4,6 +4,31 @@ render_navigation :footer, :html => { :id => 'footer-navigation', :class => 'nav
     i.named t('interface.footer.navigation.home')
     i.links_to root_path
   end
+
+  add_item :html => { :class => 'footerNavigationItem' } do |i|
+    i.named t('interface.footer.navigation.download')
+    i.links_to download_path
+  end
+
+  add_item :html => { :class => 'footerNavigationItem' } do |i|
+    i.named t('interface.footer.navigation.code')
+    i.links_to code_path
+  end
+
+  add_item :html => { :class => 'footerNavigationItem' } do |i|
+    i.named t('interface.footer.navigation.documentation')
+    i.links_to documentation_path
+  end
+
+  add_item :html => { :class => 'footerNavigationItem' } do |i|
+    i.named t('interface.footer.navigation.community')
+    i.links_to community_path
+  end
+
+  add_item :html => { :class => 'footerNavigationItem' } do |i|
+    i.named t('interface.footer.navigation.blog')
+    i.links_to blog_path
+  end
 end
 -%>
 

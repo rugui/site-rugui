@@ -4,13 +4,25 @@ en-US:
       title: 'RuGUI logo'
     menu:
       home: 'Home'
+      download: 'Download'
+      code: 'Code'
+      documentation: 'Documentation'
+      community: 'Community'
+      blog: 'Blog'
     footer:
       navigation:
         home: 'Home'
+        download: 'Download'
+        code: 'Code'
+        documentation: 'Documentation'
+        community: 'Community'
+        blog: 'Blog'
       twitter: 'Follow RuGUI on Twitter'
     pages:
       home:
+        title: 'Create desktop applications with no pain!'
+        description: 'RuGUI helps you create desktop application using Ruby/GTK or Ruby/Qt libraries. It favors, like Ruby on Rails, convention over configuration, DRY and MVC patterns.'
         metatags:
-          title: 'RuGUI -  Ruby Graphical User Interface Framework Official Page'
-          description: 'RuGUI is a framework which aims to help building desktop applications. RuGUI was mostly inspired by the Ruby on Rails framework, taking most of its features from it.'
+          title: 'RuGUI - Making desktop application easy'
+          description: 'RuGUI is an open-source framework that makes building desktop applications very easy. Like "Ruby on Rails":http://rubyonrails.org, it aims to improve productivity, favoring convention over configuration, DRY and MVC patterns.'
           keywords: 'ruby gtk qt, framework, programming, model view controller, mvc, development, desktop'
