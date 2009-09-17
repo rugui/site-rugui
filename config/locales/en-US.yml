@@ -26,3 +26,13 @@ en-US:
           title: 'RuGUI - Making desktop application easy'
           description: 'RuGUI is an open-source framework that makes building desktop applications very easy. Like "Ruby on Rails":http://rubyonrails.org, it aims to improve productivity, favoring convention over configuration, DRY and MVC patterns.'
           keywords: 'ruby gtk qt, framework, programming, model view controller, mvc, development, desktop'
+        banner:
+          documentation:
+            link: 'Learn More'
+            title: 'Check out some HOW-TOs, Tutorials, and Docs'
+          download:
+            link: 'Download Latest Version'
+            title: 'Download and Install the latest version of RuGUI'
+          community:
+            link: 'Participate!'
+            title: 'Want some feature? Want to submit a patch? Your feedback is very important!'
