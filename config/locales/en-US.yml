@@ -36,3 +36,20 @@ en-US:
           community:
             link: 'Participate!'
             title: 'Want some feature? Want to submit a patch? Your feedback is very important!'
+        question:
+          what: 'What?'
+          why: 'Why?'
+          when: 'When?'
+          where: 'Where?'
+          who: 'Who?'
+          how: 'How?'
+          how_much: 'How Much?'
+        answer:
+          what: 'RuGUI is a MVC framework which helps you write desktop applications in a simple and easy way.'
+          why: 'Because you want to focus on writing your application, you want to follow conventions and do as little configuration as possible.'
+          when: 'Whenever you need to quickly create a prototype, or even big applications, RuGUI will help you organize your code and make it very clean and simple.'
+          where: 'RuGUI runs on Windows, Linux and Mac. In fact, anywhere a Ruby/Gtk or Ruby/Qt application would run, RuGUI runs too!'
+          who: 'RuGUI was created by Vicente Mundim, highly inspired by Ruby on Rails framework. It has other contributors, and you can be the next one!'
+          how: 'It is very simple to install RuGUI, just follow the instructions for your plataform.'
+          how_much: 'Ahm.... Nothing! Really, RuGUI is released as LGPL, which means you can use it for anything, even commercial software without license fees or royalties.'
+
