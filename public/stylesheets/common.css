@@ -9,3 +9,110 @@
 .clear {
   clear: both;
 }
+
+#logo {
+  float: left;
+}
+
+#content {
+  clear: both;
+}
+
+#header {
+  clear: both;
+  width: 960px;
+  margin: 0 auto;
+}
+
+/* Menu */
+
+li.menuItem {
+  float: left;
+  width: auto;
+  
+  margin-left: 10px;
+  padding: 0px;
+
+  font-size: 15px;
+  font-weight: bold;
+}
+
+a.menuItem {
+  color: #990000;
+  text-decoration: none;
+  display: block;
+}
+
+a.menuItem:hover {
+  color: #003e5c;
+}
+
+a.menuItem.active {
+  color: #003e5c;
+  cursor: default;
+}
+
+/* Menu */
+
+/* Footer */
+
+.navigation {
+	float: left;
+}
+
+.navigation > ul > li {
+	float: left;
+}
+
+a.footerNavigationItem {
+	text-decoration: none;
+	margin-left: 3px;
+}
+
+a.footerNavigationItem:hover {
+	text-decoration: underline;
+}
+
+/* Footer */
+
+/* Page Description */
+
+.pageDescription {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.pageDescription h1 {
+
+}
+
+.pageDescription p {
+
+}
+
+.pageDescription img {
+
+}
+
+/* Page Description */
+
+/* Middle banner */
+
+#middle_banner {
+  clear: both;
+  width: 100%;
+  background-color: #ff9f9a;
+}
+
+.bannerLinks {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.bannerLinkContainer {
+  width: 300px;
+  margin: 10px 10px;
+  float: left;
+}
+
+/* Middle banner */

@@ -20,7 +20,7 @@ en-US:
       twitter: 'Follow RuGUI on Twitter'
     pages:
       home:
-        title: 'Create desktop applications with no pain!'
+        title: 'Create desktop applications quickly and easy!'
         description: 'RuGUI helps you create desktop application using Ruby/GTK or Ruby/Qt libraries. It favors, like Ruby on Rails, convention over configuration, DRY and MVC patterns.'
         metatags:
           title: 'RuGUI - Making desktop application easy'

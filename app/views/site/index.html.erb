@@ -1,20 +1,25 @@
 <%- metatags_content_for(:home) -%>
 
-<%= titled_image_tag 'logo_rugui.png', :title => t('interface.logo.title'), :width => 167, :height => 101, :id => 'logo' %>
-<h1 class="title"><%= t('interface.pages.home.title') %></h1>
-<p class="description"><%= t('interface.pages.home.description') %></p>
+<div class="pageDescription">
+  <%= titled_image_tag 'logo_rugui.png', :title => t('interface.logo.title'), :width => 167, :height => 101, :id => 'logo' %>
+  <h1 class="title"><%= t('interface.pages.home.title') %></h1>
+  <p class="description"><%= t('interface.pages.home.description') %></p>
+</div>
 
 <div id="middle_banner" class="banner">
-  <div class="bannerLinkContainer">
-    <%= link_to titled_image_tag('learn_rugui.png', :title => t('interface.pages.home.banner.documentation.title')), documentation_path, :title => t('interface.pages.home.banner.documentation.title') %>
-    <p class="caption"><%= link_to t('interface.pages.home.banner.documentation.link'), documentation_path, :title => t('interface.pages.home.banner.documentation.title') %></p>
-  </div>
-  <div class="bannerLinkContainer">
-    <%= link_to titled_image_tag('get_rugui.png', :title => t('interface.pages.home.banner.download.title')), download_path, :title => t('interface.pages.home.banner.download.title') %>
-    <p class="caption"><%= link_to t('interface.pages.home.banner.download.link'), download_path, :title => t('interface.pages.home.banner.download.title') %></p>
-  </div>
-  <div class="bannerLinkContainer">
-    <%= link_to titled_image_tag('join_rugui.png', :title => t('interface.pages.home.banner.community.title')), community_path, :title => t('interface.pages.home.banner.community.title') %>
-    <p class="caption"><%= link_to t('interface.pages.home.banner.community.link'), community_path, :title => t('interface.pages.home.banner.community.title') %></p>
+  <div class="bannerLinks">
+    <div class="bannerLinkContainer">
+      <%= link_to titled_image_tag('learn_rugui.png', :title => t('interface.pages.home.banner.documentation.title')), documentation_path, :title => t('interface.pages.home.banner.documentation.title') %>
+      <p class="caption"><%= link_to t('interface.pages.home.banner.documentation.link'), documentation_path, :title => t('interface.pages.home.banner.documentation.title') %></p>
+    </div>
+    <div class="bannerLinkContainer">
+      <%= link_to titled_image_tag('get_rugui.png', :title => t('interface.pages.home.banner.download.title')), download_path, :title => t('interface.pages.home.banner.download.title') %>
+      <p class="caption"><%= link_to t('interface.pages.home.banner.download.link'), download_path, :title => t('interface.pages.home.banner.download.title') %></p>
+    </div>
+    <div class="bannerLinkContainer">
+      <%= link_to titled_image_tag('join_rugui.png', :title => t('interface.pages.home.banner.community.title')), community_path, :title => t('interface.pages.home.banner.community.title') %>
+      <p class="caption"><%= link_to t('interface.pages.home.banner.community.link'), community_path, :title => t('interface.pages.home.banner.community.title') %></p>
+    </div>
+    <div class="clear"></div>
   </div>
 </div>
