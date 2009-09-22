@@ -2,32 +2,32 @@
 render_navigation :footer, :html => { :id => 'footer-navigation', :class => 'navigation' } do
   add_item :html => { :class => 'footerNavigationItem' } do |i|
     i.named t('interface.footer.navigation.home')
-    i.links_to root_path
+    i.links_to root_url
   end
 
   add_item :html => { :class => 'footerNavigationItem' } do |i|
     i.named t('interface.footer.navigation.download')
-    i.links_to download_path
+    i.links_to download_url
   end
 
   add_item :html => { :class => 'footerNavigationItem' } do |i|
     i.named t('interface.footer.navigation.code')
-    i.links_to code_path
+    i.links_to code_url
   end
 
   add_item :html => { :class => 'footerNavigationItem' } do |i|
     i.named t('interface.footer.navigation.documentation')
-    i.links_to documentation_path
+    i.links_to documentation_url
   end
 
   add_item :html => { :class => 'footerNavigationItem' } do |i|
     i.named t('interface.footer.navigation.community')
-    i.links_to community_path
+    i.links_to community_url
   end
 
   add_item :html => { :class => 'footerNavigationItem' } do |i|
     i.named t('interface.footer.navigation.blog')
-    i.links_to blog_path
+    i.links_to blog_url
   end
 end
 -%>

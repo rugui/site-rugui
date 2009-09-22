@@ -1,9 +1,13 @@
 module ExternalRoutesHelper
-  def code_path
+  def documentation_url
+    "http://github.com/rugui/rugui/wiki"
+  end
+
+  def code_url
     "http://github.com/rugui/rugui"
   end
 
-  def blog_path
+  def blog_url
     "http://blog.rugui.org"
   end
 end

@@ -2,7 +2,6 @@ ActionController::Routing::Routes.draw do |map|
   # The priority is based upon order of creation: first created -> highest priority.
 
   map.download 'download', :controller => 'site', :action => 'download'
-  map.documentation 'documentation', :controller => 'site', :action => 'documentation'
   map.community 'community', :controller => 'site', :action => 'community'
 
   # Sample of regular route:

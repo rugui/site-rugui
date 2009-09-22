@@ -10,10 +10,6 @@ describe SiteController do
       route_for(:controller => "site", :action => "download").should == { :path => "/download", :method => :get }
     end
 
-    it "should map #documentation" do
-      route_for(:controller => "site", :action => "documentation").should == { :path => "/documentation", :method => :get }
-    end
-
     it "should map #community" do
       route_for(:controller => "site", :action => "community").should == { :path => "/community", :method => :get }
     end
@@ -26,10 +22,6 @@ describe SiteController do
 
     it "should generate params for #download" do
       params_from(:get, "/download").should == { :controller => "site", :action => "download" }
-    end
-
-    it "should generate params for #documentation" do
-      params_from(:get, "/documentation").should == { :controller => "site", :action => "documentation" }
     end
 
     it "should generate params for #community" do
